@@ -1,4 +1,5 @@
 import boto3  
+# create an S3 client to interact with AWS S3
 client = boto3.client('s3')
 
 def main(event , context):
